@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:linear-gradient(
+        135deg,
+        #fff8dc,
+        #ffe082
+    );
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:900px;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+.header{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.header h1{
+    color:#d4a017;
+    margin-bottom:10px;
+}
+
+.header p{
+    color:#666;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:6px;
+    font-weight:600;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:2px solid #f5d76e;
+    border-radius:10px;
+    outline:none;
+    transition:.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    border-color:#d4a017;
+}
+
+textarea{
+    min-height:100px;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#f4c430;
+    color:#333;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#e6b800;
+    transform:translateY(-2px);
+}
+
+.btn-link{
+    display:block;
+    text-align:center;
+    margin-top:20px;
+    text-decoration:none;
+    color:#d4a017;
+    font-weight:bold;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background:#f4c430;
+    color:#333;
+}
+
+th,
+td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#fff8dc;
+}
+
+@media(max-width:768px){
+
+    .container{
+        padding:20px;
+    }
+
+    table{
+        font-size:12px;
+    }
+}
+.landing{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.landing-card{
+    background:white;
+    width:90%;
+    max-width:600px;
+    padding:40px;
+    border-radius:25px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.landing-card h1{
+    color:#d4a017;
+    margin-bottom:15px;
+}
+
+.landing-card p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.menu{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.menu-btn{
+    text-decoration:none;
+    background:#f4c430;
+    color:#333;
+    padding:15px;
+    border-radius:12px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.menu-btn:hover{
+    background:#e6b800;
+    transform:translateY(-3px);
+}
+.menu-bawah{
+    margin-top:20px;
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}

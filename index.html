@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Data Pekerja</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>📋 Data Pekerja</h1>
+            <p>Form Pendataan Karyawan Perusahaan</p>
+        </div>
+
+        <form id="dataForm">
+
+            <label>Nama Pekerja</label>
+            <input type="text" id="nama" required>
+
+            <label>ID Pekerja</label>
+            <input type="text" id="nim" required>
+
+            <label>Jenis Layanan</label>
+            <select id="layanan" required>
+                <option value="">Pilih Layanan</option>
+                <option>Administrasi</option>
+                <option>Absensi</option>
+                <option>Pengajuan Cuti</option>
+                <option>Konsultasi HRD</option>
+            </select>
+
+            <label>Keterangan</label>
+            <textarea id="keterangan"></textarea>
+
+            <button type="submit">Simpan Data</button>
+            <a class="btn-link" href="awal.html">
+                🏠 Kembali ke Menu Utama
+            </a>
+        </form>
+
+        <a class="btn-link" href="data.html">
+            Lihat Data Pekerja →
+        </a>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
