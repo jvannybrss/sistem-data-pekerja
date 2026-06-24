@@ -20,10 +20,10 @@
         <form id="dataForm">
 
             <label>Nama Pekerja</label>
-            <input type="text" id="nama" required>
+            <input type="text" id="nama" placeholder="Masukkan nama lengkap Anda" required>
 
             <label>ID Pekerja</label>
-            <input type="text" id="nim" required>
+            <input type="text" id="nim" maxlength="6" pattern="[0-9]{6}" placeholder="Masukkan 6 digit angka" required>
 
             <label>Jenis Layanan</label>
             <select id="layanan" required>
@@ -34,7 +34,10 @@
                 <option>Konsultasi HRD</option>
             </select>
 
-            <label>Keterangan</label>
+            <label>
+                Keterangan
+                <span class="opsional">(Opsional)</span>
+            </label>
             <textarea id="keterangan"></textarea>
 
             <button type="submit">Simpan Data</button>

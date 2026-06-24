@@ -184,3 +184,8 @@ tr:nth-child(even){
     justify-content:center;
     flex-wrap:wrap;
 }
+.opsional{
+    color:#999;
+    font-size:13px;
+    font-weight:normal;
+}
